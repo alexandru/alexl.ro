@@ -1,0 +1,26 @@
+---
+title: "HTTP 404 - Page Not Found"
+---
+
+<article id="page404">
+  <h1>404 N-am Găsit</h1>
+
+  <p>
+    Auu! Pagina pe care o vrei lipseşte. Poate am şters-o pentru
+    oareşicare motiv, îmi pare rău.
+  </p>
+
+  <h2>Articole Recente</h2>
+
+  <ol class="posts">
+    <% page_articles.find_all{|x| !x.data.archive}[0..5].each_with_index do |article, i| %>	
+    <li> 
+      <time datetime="<%= article.date.strftime("%Y-%m-%d") %>">
+	<%= article.date.strftime("%Y-%m-%d") %> &raquo;
+      </time>
+      <a href="<%= article.url %>" rel="prefetch related"><%= article.title %></a>
+    </li>      
+    <% end %>
+  </ol>
+</article>
+
