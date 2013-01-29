@@ -241,6 +241,18 @@ body #main {
 
     article#home {
 	padding-bottom: $vertical-padding;
+
+	h1 {
+	    padding-bottom: 0;
+	    margin-bottom: 0;
+	}
+
+	.description {
+	    margin-bottom: $vertical-padding * 2;
+	    font-size: $body-font-size - 2px;
+	    font-style: italic;
+	    color: #555;
+	}
     }
 
     article#post header h1 {
