@@ -20,7 +20,7 @@ def localize_date(dt)
 end
 
 def rss_summary_of(html)
-  html = html.split(/<![-][-]\s*read\s*more\s*[-][-]>/)[0]
+  html = html.split(/<![-][-]\s*(read\s*)?more\s*[-][-]>/)[0]
   doc = Nokogiri::HTML(html)
 
   doc.css("h1").each{|elem| 
