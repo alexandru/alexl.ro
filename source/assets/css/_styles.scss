@@ -419,8 +419,8 @@ body #main article footer #other-articles, body #main article footer #email-subs
     h2 {
 	margin: 0;
 	padding: 0;
-	padding-top: $vertical-padding;
-	padding-bottom: $vertical-padding;
+	padding-top: $vertical-padding / 2;
+	padding-bottom: $vertical-padding / 2;
 	font-size: 140%;
     }
     
@@ -451,6 +451,7 @@ body #main article footer #facebook-like {
     position: relative;
     border-top: 2px solid #C69AA1;
     padding-top: 10px;    
+    margin-top: 10px;
 
     h2 {
 	margin-top: 0;
