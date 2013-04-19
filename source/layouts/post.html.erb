@@ -1,13 +1,14 @@
 <% wrap_layout :layout do %>
-<article id="post">
+<article id="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header>
     <h1 itemprop="name"><%= current_page.title %></h1>
+
     <div id="meta">
-      <div class="post-date"><%= localize_date(current_page.date) %></div>
+      <time class="post-date" itemprop="dateCreated" datetime="<%= current_page.date.strftime('%Y-%m-%d') %>"><%= localize_date(current_page.date) %></time>
     </div>
   </header>
 
-  <div id="content">
+  <div id="content" itemprop="articleBody">
     <%= yield %>
   </div>
 
