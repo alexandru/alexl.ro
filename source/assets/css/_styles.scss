@@ -11,6 +11,7 @@ $header-1-size: 180%;
 $max-width: 760px;
 $min-width: 480px;
 $vertical-padding: 20px;
+$content-text-color: #000000;
 
 /********
    MIXINS
@@ -267,11 +268,31 @@ body #main {
 
     article {
 	#content {
-	    ul, ol {
-		list-style: none;
+	    ol {
+		padding: 0;
+		margin: 0;
+		padding-left: 30px;
+		list-style-position: outside;
+	    }
+
+	    ol.red {
+		li {
+		    color: #67000E;
+		    font-weight: bold;
+		    margin-bottom: 5px;
+
+		    span {
+			color: $content-text-color;
+			font-weight: normal;
+		    }
+		}
+	    }
+
+	    ul {
 		margin: 0;
 		padding: 0;
 		padding-left:5px;
+		list-style: none;
 
 		li {
 		    margin-bottom: $vertical-padding / 2;
