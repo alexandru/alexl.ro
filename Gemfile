@@ -1,4 +1,4 @@
-source :rubygems
+source 'https://rubygems.org'
 
 gem "middleman"
 gem "middleman-blog"
@@ -7,10 +7,11 @@ gem "middleman-syntax"
 gem "middleman-sync"
 gem "middleman-minify-html"
 
-gem "builder", "~> 3.0.0"
-
+gem "builder"
 gem 'redcarpet'
+gem 'rack'
 
-gem 'rack', "1.4.1"
+gem 'rb-inotify', :require => false
+gem 'rb-fsevent', :require => false
+gem 'rb-fchange', :require => false
 
-gem 'rb-inotify', '~> 0.9'
