@@ -3,12 +3,6 @@ require 'yaml'
 require "lib/helpers"
 
 ###
-# Site-wide settings
-###
-
-@website = OpenStruct.new(YAML::load_file(File.dirname(__FILE__) + "/config.yaml")[:website])
-
-###
 # Blog settings
 ###
 
@@ -95,31 +89,26 @@ set :js_dir, 'assets/js'
 set :images_dir, 'assets/img'
 
 activate :syntax
-
-set :markdown_engine, :redcarpet
-set :markdown, :fenced_code_blocks => true, :smartypants => true
+set :markdown_engine, :kramdown
+set :markdown, :syntax_highlighter => :rouge, :input => "GFM", :hard_wrap => false
 
 # Build-specific configuration
 configure :build do
   activate :minify_css
   activate :minify_javascript
-  activate :minify_html
 
+  # activate :minify_html
   activate :asset_hash
+
+  #activate :asset_host
+  #set :asset_host do |asset|
+  #  "//d2uy8r9dr9sdps.cloudfront.net".to_s
+  #end
 
   # Enable cache buster
   # activate :cache_buster
 
   # Use relative URLs
-  activate :relative_assets
-
-  activate :gzip  
-
-  # Compress PNGs after build
-  # First: gem install middleman-smusher
-  # require "middleman-smusher"
-  # activate :smusher
-
-  # Or use a different image path
-  # set :http_path, "/Content/images/"
+  # activate :relative_assets
+  activate :gzip
 end

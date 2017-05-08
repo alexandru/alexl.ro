@@ -1,5 +1,10 @@
 require "nokogiri"
 
+def website
+  @website_ref = @website_ref || OpenStruct.new(YAML::load_file(File.dirname(__FILE__) + "/../config.yaml")[:website])
+  @website_ref
+end
+
 def localize_date(dt)
   months = [
      'Ianuarie',
