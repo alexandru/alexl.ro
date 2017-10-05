@@ -1,0 +1,6 @@
+before_install:
+- openssl aes-256-cbc -K $encrypted_5bf5af6baf96_key -iv $encrypted_5bf5af6baf96_iv -in misc/travis_rsa.enc -out misc/travis_rsa -d
+install:
+- bundle install
+script:
+- ./misc/build-then-sync.sh
