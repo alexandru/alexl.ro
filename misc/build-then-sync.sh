@@ -4,8 +4,8 @@ cd `dirname $0`/..
 
 bundle exec middleman build
 mkdir -p $HOME/.ssh
-chmod go-rwx $HOME/.ssh
 cp misc/travis_rsa $HOME/.ssh
+chmod -R go-rwx $HOME/.ssh
 
 rsync --delete-excluded -Pacv \
   -e "ssh -o 'StrictHostKeyChecking no' -i $HOME/.ssh/travis_rsa" \
