@@ -15,11 +15,6 @@ unless ENV['CI'] == 'true'
   abort("ERROR: Not running on top of Travis, aborting!")
 end
 
-unless ENV['PUBLISH'] == 'true'
-  puts "Publish is disabled"
-  exit
-end
-
 branch = if ENV["TRAVIS_TAG"] && !ENV["TRAVIS_TAG"].empty?
   ENV["TRAVIS_TAG"]
 else
