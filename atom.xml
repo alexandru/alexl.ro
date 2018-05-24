@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+ <id>https://alexl.ro/</id>
+ <title>alexl.ro</title>
+ <link href="https://alexl.ro/atom.xml" rel="self"/>
+ <link href="https://alexl.ro/" />
+ <updated>2018-05-24T12:45:26+03:00</updated>
+
+ <author>
+   <name>Alexandru Nedelcu</name>
+ </author>
+
+ <entry>
+   <id>https://alexl.ro/blog/2015/08/18/vrei-sa-fii-programator.html</id>
+   <title>Vrei să fii programator?</title>
+   <link href="https://alexl.ro/blog/2015/08/18/vrei-sa-fii-programator.html?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication"/>
+   <published>2015-08-18T00:00:00+03:00</published>
+   <updated>2015-08-18T00:00:00+03:00</updated>
+
+   <author>
+     <name>Alexandru Nedelcu</name>
+   </author>
+
+   <rights type="text">
+     Copyright 2018 Alexandru Nedelcu.
+     Some rights reserved (CC BY-NC 3.0)
+     License: http://creativecommons.org/licenses/by-nc/3.0/
+   </rights>
+
+   <category><![CDATA[life]]></category>
+
+   <content type="html"><![CDATA[
+   <p>Magie. Pentru copiii doritori, programarea pare a fi arta de a amuza
+mulțimea prin iluzii, trucuri și efecte de scenă, deși după puțină
+practică devine clar că se apropie mai mult de ritualurile de
+exploatare a forțelor supranaturale, dar cu efecte practice. Nu este
+nimic mai înălțător decât idea de a-ți făuri propriile jocuri prin
+incantații magice.</p>
+
+<p><img src="/assets/img/articles/2015-hc2000.jpg" width="300" itemprop="image" class="right" title="Da, primul meu contact a fost cu-n HC 2000" alt="2015 hc2000" style="float: right; margin-left: 10px; margin-bottom: 10px;" align="right"></p>
+
+<p>După ce crești și noutatea se diminuează, ajungi să lucrezi și la
+chestii ce nu-ți plac, iar fenomenul se schimbă. Nu se întâmplă mereu,
+dar de multe ori lucrezi la câte o problemă interesantă, îți vine câte
+o idee, vreo soluție salvatoare, sau pur și simplu îți vezi aplicația
+cum merge, întâi în mâinile tale și apoi și-n mâinile altora, asta
+după multe zile, săptămâni sau luni de trudă și apoi se întâmplă
+… îți dai seama că ai reușit, iar secreția de dopamină din creier
+atinge cote periculoase, explozia de plăcere la gândul propriei
+creații fiind nemaipomenită.</p>
+
+<p>Poate cel mai important efect secundar, adică capacitatea de a-ți
+adapta mediul în care trăiești, de a rezolva problemele altora, chiar
+ale societății la modul general, prin software. Ai prieteni cu
+afecțiuni cronice și vrei să-i ajuți? Vrei să inventariezi actele de
+corupție ale demnitarilor? Vrei să faci educația mai accesibilă celor
+din mediul rural? Vrei să ajuți la fezabilitatea surselor de energie
+reînnoibilă? Vrei să simulezi un univers paralel? Vrei să prezici
+viitorul? Vrei o dronă cu care să-ți spionezi vecinii în fiecare zi la
+ora 6? Totul devine posibil, singura limită reală fiind propria
+imaginație.</p>
+
+<p>Însă ca orice drog, sensibilitatea receptorilor scade în timp și vrei
+mai mult și mai mult, culminând într-o stare perpetuă de foame ce nu
+poate fi stăvilită decât printr-un succes răsunător, sau printr-o
+depresie, într-o cursă care-i evident contra cronometru.</p>
+
+<h3 id="poți-fi-programator" style="font-size: 120%; font-weight: bold;"><b>Poți fi programator?<b></b></b></h3>
+
+<p>Regret, dar șansele sunt împotriva ta, probabil n-o să poți și chiar
+dacă poți, poate că n-o să vrei. Cine-ți spune contrariul te minte,
+pentru că vezi tu, industria software este plină pe de-o parte de
+idealiști cronici, asta până devin cinici, așa ca mine, cinismul fiind
+un defect profesional des întâlnit după multe decepții. Pe de altă
+parte industria este plină și de capitaliști cu-n interes direct în
+reducerea costurilor, de unde și toate discuțiile despre educația STEM
+și despre vizele H1-B din SUA.</p>
+
+<p>Mulți oameni înțeleg prin programare folosirea unui limbaj de
+comunicare cu calculatorul prin instrucțiuni deterministe. Însă asta
+este ca și când ai spune că pictura este echivalentă cu folosirea de
+pensule și evident că există o diferență uriașă între pictori precum
+da Vinci, Rembrandt, Monet și meseriașul ce-ți văruiește apartamentul.
+De altfel este o idee populară că învățarea mai multor limbaje de
+programare te fac mai bun. Idee venită de la indivizi gen Bruce Tate,
+ce scriu bloguri sau cărți și nimic altceva. Adică am lucrat la mod
+real cu vreo 6 limbaje de programare și m-am jucat în timpul liber cu
+tot pe atâtea, iar dintr-o duzină de limbaje de programare mi-au
+influențat gândirea în mod pozitiv fix două. Și noi, informaticienii,
+avem cam aceleași impresii cu ale oamenilor ce nu ne înțeleg profesia,
+iar dacă programarea este folosirea unui limbaj de programare, atunci
+două limbaje de programare sunt mai bune ca unul, iar trei sunt mai
+bune două, păi nu?</p>
+
+<p><a href="https://xkcd.com/221/" target="_blank">
+   <img src="/assets/img/articles/2015-random.png" width="300" itemprop="image" class="right" title="Când pregătirea se întâlnește cu oportunitatea ..." alt="2015 random" style="float: right; margin-left: 10px; margin-bottom: 10px;" align="right">
+</a></p>
+
+<p>Programarea este la mod fundamental <em>rezolvarea de probleme</em> prin
+intermediul informaticii, iar candidatul ideal are în primul rând
+<em>abilități de rezolvare a problemelor</em> de orice fel. Asta înseamnă o
+capacitate de descoperire a problemelor ce merită a fi rezolvate, de
+analiză a problemelor găsite, puterea de a gândi în abstract, de a
+diferenția complexitatea accidentală de complexitatea esențială
+(<a href="https://en.wikipedia.org/wiki/No_Silver_Bullet">link</a>), de spargere
+a problemelor mari în probleme mai mici și mai simple și capacitatea
+de concentrare extremă, adesea <em>în detrimetrul vieții și a igienii
+personale</em>.</p>
+
+<p>Mulți profesori de analiză matematică de liceu afirmă că elevii se
+împart în două categorii - elevii ce înțeleg notația cu epsilon din
+definiții și elevii ce nu înțeleg. Cam așa este și cu informatica,
+elevii împărțindu-se în elevi ce înțeleg conceptul de <em>variabilă</em> și
+elevi ce nu înțeleg. Și evident că ai nevoie de o inteligență bine
+peste medie, ca un minim necesar. Dar și mai mult, în practică
+profesia asta implică aptitudini de inginer, arhitect, designer,
+matematician, hacker și artist, toate în același timp.</p>
+
+<p>Dar la fel ca în cazul obezilor ce nu pot slăbi, noi cei care n-am
+fost niciodată grași sau noi cei care ne-am priceput din start la
+programare, putem pretinde că nu-i nevoie decât de efort, nenorocind
+psihic generații întregi.</p>
+
+<h3 id="chiar-vrei" style="font-size: 120%; font-weight: bold;"><b>Chiar vrei?<b></b></b></h3>
+
+<p>Da, sigur, e super tare. Dar există și niște dezavantaje. Sigur că
+putem vorbi de cele 10,000 de ore necesare, de copilăriile nenorocite
+de timpul petrecut în fața calculatorului, de viața personală dominată
+de obsesii ce includ cod.</p>
+
+<p>Însă de la capitalismul brut ce domină industria, marcată de o
+selecție naturală și o instabilitate nemaintâlnită, la discriminările
+bazate pe vârstă (că suntem ca niște vaci bune de muls doar cât suntem
+până-n 40 de ani), la zilele lungi de lucru cu timpul suplimentar
+neplătit, totul cuplat cu nenumăratele decepții de care suferi de-a
+lungul carierei din diverse motive (gen startup-uri eșuate sau rupere
+de suflet în mediul corporatist), ajungi încet dar sigur la realizarea
+că profesia asta este o rețetă sigură pentru depresie. Și e bine s-o
+vezi venind, pentru că burnout-ul
+(<a href="https://en.wikipedia.org/wiki/Burnout_(psychology)">link</a>) este un
+fenomen real, iar non-programatorii din viața ta nici măcar n-or să te
+înțeleagă.</p>
+
+<p>Adică dacă ai inteligența peste medie necesară profesiei, atunci ai
+opțiuni, iar profesia de programator nu-i tocmai cea mai lucrativă.</p>
+
+<p>Și mai adevărat este însă că nimic din ce ți-aș putea spune nu te-ar
+putea face să renunți. Că ne simțim destinați s-o facem, ca o forță a
+gravitației de care nu putem scăpa. Nu-i așa?</p>
+
+
+   <p><a rel="full-article" href="https://alexl.ro/blog/2015/08/18/vrei-sa-fii-programator.html?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"><b>Citeşte tot articolul &raquo;</b></a></p>
+   ]]></content>
+ </entry>
+ <entry>
+   <id>https://alexl.ro/blog/2015/03/11/cand-totul-dispare.html</id>
+   <title>Când totul în jur dispare</title>
+   <link href="https://alexl.ro/blog/2015/03/11/cand-totul-dispare.html?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication"/>
+   <published>2015-03-11T00:00:00+02:00</published>
+   <updated>2015-03-11T00:00:00+02:00</updated>
+
+   <author>
+     <name>Alexandru Nedelcu</name>
+   </author>
+
+   <rights type="text">
+     Copyright 2018 Alexandru Nedelcu.
+     Some rights reserved (CC BY-NC 3.0)
+     License: http://creativecommons.org/licenses/by-nc/3.0/
+   </rights>
+
+   <category><![CDATA[life]]></category>
+
+   <content type="html"><![CDATA[
+   <p>Sunt eu, față-n față cu o problemă de rezolvat. Problema este dificilă,
+iar eu am probleme de concentrare. Îmi fac o cafea, îmi mut poziția și
+deja mă gândesc să schimb mediul printr-o vizită la vreo cafenea. Îmi vine greu
+să mă concentrez câteodată, îmi vine greu să mă apuc de rezolvare, de multe
+ori procrastinez, sau doar frec menta.</p>
+
+<p>Problemele cu care am de-a face necesită o atenție la detalii extremă,
+pentru că trebuie să-ți încarci în cap toate interacțiunile, toate
+efectele secundare, toate responsabilitățile și limitările sistemului,
+după care să treci peste problemă așa cum a fost descrisă și să înțelegi
+cauza, rădăcina problemei și asta pentru că cele mai mari simplificări
+în rezolvări se pot întâmpla printr-o schimbare de perspectivă.</p>
+
+<p>Oamenii nu sunt capabili să rezolve mai multe probleme în paralel, iar când
+ajungem să o facem, o facem doar pentru probleme superficiale. Că da,
+putem conduce mașina în timp ce vorbim la telefon, dar doar din cauza
+sistemului nervos vegetativ, ce poate fi antrenat să facă chestii din reflex.
+Când conduc sunt pe pilot automat, schimb viteze, iau viraje, opresc la
+semafor și reacționez la neprevăzut, dar este totul automat. Mi se întâmplă
+câteodată să mă trezesc conducând spre birou, deși este weekend și
+drumul meu era spre Cora.</p>
+
+<p>Problemele grele necesită atenție extremă. O singură vorbă din partea unui
+coleg sau din partea soției, un singur gând la vreo problemă personală, îmi
+poate distruge concentrarea, capabilitate de concentrare ce apare greu.
+Dar ajutat de vreo melodie, sau de zgomotul de fond al vreunei cafenele, sau
+animat de problema la care lucrez, apare și acel moment magic în care mă
+pot concetra pe rezolvare.</p>
+
+<p><img src="/assets/img/articles/2015-earth.jpg" width="300" itemprop="image" class="right" alt="2015 earth" style="float: right; margin-left: 10px; margin-bottom: 10px;" align="right"></p>
+
+<p>Și totul în jur dispare.</p>
+
+<p>Toate problemele personale ce le am, toate grijile
+față de ziua de mâine, tot stresul cotidian, totul în jur devine irelevant
+și mut și câteodată mă simt ca și cum am migrat într-o altă realitate, în care
+sunt doar eu și problema ce trebuie să o rezolv. Și mă simt bine, pentru că sunt
+în realitatea în care vreau să fiu, o realitate în care se nasc soluții din
+aer, o realitate unde problemele sunt deterministe. Și este ca un fel de viciu.
+Din cauza asta nu mi-a plăcut niciodată alcoolul, pentru că mă împiedică
+să ajung acolo.</p>
+
+<p>Grav este când ai piedici, adică oameni fără de ocupație ce n-au altceva
+mai bun de făcut decât să-ți stea în cale, pentru a-și justifica existența
+în vreun fel, gen manageri cu simțul răspunderii.</p>
+
+<p>Participam la un "training de scrum" și se dădea exemplu pe Mona Lisa a lui
+Leonardo da Vinci și cum ar putea fi pictată într-un mod "agil".
+Și mi s-a părut o referință extrem de tristă, ținând cont de obsesia lui
+Leonardo pentru perfecțiune, de faptul că i-a luat 3 ani s-o picteze și
+tot nu era mulțumit, de faptul că este imposibil să obți o Mona Lisa cu vreo
+30 de manageri ce n-au altceva mai bun de făcut în afară de a se scărpina la
+coaie prin meeting-uri.</p>
+
+<p>Trist, pentru că întinăm memoria lui Leonardo da Vinci, un adevărat hacker,
+însă încurajator pentru că 10,000 de incompetenți ce construiesc software
+asemenea piramidelor egiptene (e.g. prin sclavi biciuiți să mute cărămizi) tot
+nu pot face treaba a 3 oameni talentați și determinați. Nașpa-i când suntem
+păcăliți să mutăm cărămizi pe salariu de sclav, dar asta-i altă discuție.</p>
+
+
+   <p><a rel="full-article" href="https://alexl.ro/blog/2015/03/11/cand-totul-dispare.html?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"><b>Citeşte tot articolul &raquo;</b></a></p>
+   ]]></content>
+ </entry>
+ <entry>
+   <id>https://alexl.ro/blog/2013/04/29/timpul-trece.html</id>
+   <title>Timpul trece</title>
+   <link href="https://alexl.ro/blog/2013/04/29/timpul-trece.html?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication"/>
+   <published>2013-04-29T00:00:00+03:00</published>
+   <updated>2013-04-29T00:00:00+03:00</updated>
+
+   <author>
+     <name>Alexandru Nedelcu</name>
+   </author>
+
+   <rights type="text">
+     Copyright 2018 Alexandru Nedelcu.
+     Some rights reserved (CC BY-NC 3.0)
+     License: http://creativecommons.org/licenses/by-nc/3.0/
+   </rights>
+
+   <category><![CDATA[life]]></category>
+
+   <content type="html"><![CDATA[
+   <p>Azi, în timp ce-mi fumam ţigara pe balcon am observat un guguştiuc cu
+o crenguţă uscată în cioc, zburând grăbit pe lângă mine la o distanţă
+de câţiva metrii. Se grăbea probabil să-şi termine de construit cuibul
+în care se vor naşte viitori puiuţi de guguştiuc. Pluteşte un aer de
+vacanţă, cam timpuriu ţinând cont de lună, însă mi-am dat seama că
+urmează 1 Mai, Paştele, vara şi tare e frumos afară. Întotdeauna am
+iubit verile şi abia aştept să înflorească teii.</p>
+
+<p><img src="/assets/img/articles/2013/cristian.jpg" width="300" height="284" itemprop="image" class="right" alt="Cristian" style="float: right; margin-left: 10px; margin-bottom: 10px;" align="right"></p>
+
+<p>Duminică, a fost un moment în care Cristian m-a strigat „<em>Tati</em>”,
+întinzându-şi mânuţele către mine să-l iau în braţe. L-am ridicat, iar
+mânuţele lui mi-au cuprins gâtul, culcându-şi capul pe umărul
+meu. L-am simţit că mă iubeşte şi pentru o clipă l-am ţinut strâns în
+braţe, cu inimioara lui lipită de a mea.</p>
+
+<p>Într-o zi puiul meu va creşte mare şi va vrea să zboare din
+cuib. Într-o zi va fi om mare, la casa lui şi probabil ne va separa o
+distanţă suficient de mare încât îmbrăţişările şi momentele de
+afecţiune să se rărească sau chiar să dispară. Iar eu, uitându-mă la
+poze, o să-mi amintesc cu mici lacrimi de mogâldeaţa care se grăbea să
+mă îmbrăţişeze.</p>
+
+<p>Tot în weekend s-a întâmplat să am treabă printr-un cimitir. Şi mi-a
+dat oarecum o stare de bunăstare, pentru că nu sunt eu acolo şi mai
+vezi şi câte o cruce menită pentru vreun chiriaş ce refuză să moară,
+mai vezi şi poze făcute răposaţilor cam înainte de a muri, cu feţe
+bătrâne, urâte şi-n chinuri, plus poezii proaste şi cugetări maxime
+pentru că românul s-a născut poet.</p>
+
+<p>Însă uitându-mă aşa la cruci n-am putut să nu observ că majoritatea
+bărbaţilor cam mor pe la 60-70 de ani. Destui chiar pe la 50 şi ceva,
+unii chiar mai tineri. Iar eu la 30 n-am putut să nu mă gândesc cum
+<em>mi s-a dus juma` de viaţă</em>.</p>
+
+<p>Poate chiar mai dezolant de atât sunt crucile vechi de lemn putrezit
+sau de piatră roase de ploaie şi grindină, căzute într-o rână şi cu
+textul de pe ele şters. Cu alte cuvinte, nu numai că suntem sortiţi să
+murim, dar suntem sortiţi să fim şi <em>uitaţi</em>. Poate că din cauza asta
+simţim nevoia din când în când să facem copii, să plantăm copaci sau
+să construim chestii … poate, poate reuşim să lăsăm ceva în urmă,
+poate, poate vom putea trăi măcar în amintirea cuiva.</p>
+
+<p>Viaţa trece repede şi nu neapărat pentru că este scurtă, ci mai
+degrabă pentru că zboară pe lângă noi. De exemplu când conduc undeva
+creierul mi se comută în mod auto-pilot, timp în care ori muncesc la
+ceva, ori am vreo conversaţie imaginară cu cineva, iar când ajung la
+destinaţie nici nu mai pot spune ce am făcut pe drum, adevărul fiind
+că nu ştiu.</p>
+
+<p>După o clipă de luciditate, vine apoi o perioadă în care încerci să te
+bucuri de acele detalii mici ale vieţii de zi cu zi, provocatoare de
+fericire. Când eşti prezent, în loc să fii tot timpul plecat cu gândul
+la problemele altora sau la muncă, timpul curge mai încet şi mai bine.</p>
+
+<p>După care începi iar să uiţi ce ţi-ai promis, clipeşti, şi-au mai
+trecut 10 ani.</p>
+
+
+   <p><a rel="full-article" href="https://alexl.ro/blog/2013/04/29/timpul-trece.html?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"><b>Citeşte tot articolul &raquo;</b></a></p>
+   ]]></content>
+ </entry>
+ <entry>
+   <id>https://alexl.ro/blog/2013/04/08/viata-de-programator.html</id>
+   <title>Viaţă de programator</title>
+   <link href="https://alexl.ro/blog/2013/04/08/viata-de-programator.html?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication"/>
+   <published>2013-04-08T00:00:00+03:00</published>
+   <updated>2013-04-08T00:00:00+03:00</updated>
+
+   <author>
+     <name>Alexandru Nedelcu</name>
+   </author>
+
+   <rights type="text">
+     Copyright 2018 Alexandru Nedelcu.
+     Some rights reserved (CC BY-NC 3.0)
+     License: http://creativecommons.org/licenses/by-nc/3.0/
+   </rights>
+
+   <category><![CDATA[profesie]]></category>
+
+   <content type="html"><![CDATA[
+   <p>Nu am nevoie să mă joc jocuri.</p>
+
+<p>În fiecare zi evoluez, învăţ tehnici, algoritmi şi unelte noi, rezolv
+enigme şi construiesc. Îmi place să cred că în fiecare zi cresc în
+nivel şi sunt mai bun decât ieri. Jocurile contemporane pălesc în
+comparaţie cu cel mai tare joc MMORPG existent - meseria de
+programator.</p>
+
+<p>Module cu nume de cod precum Godzilla, Predator, Gekko, Shifter,
+Engraver şi Dracula sunt presărate cu picături de sudoare şi
+adrenalină.</p>
+
+<p>Cultura de Silicon Valley este o cultură a eşecului. Arunci bulgări de
+noroi pe perete şi vezi ce se lipeşte. Iar eşecurile sunt aplaudate,
+asemănător poate cu felul cum mureau gladiatorii la Colosseum în sunet
+de aplauze. Bucăţi mari de cod şi chiar aplicaţii întregi sunt
+aruncate la gunoi, după care o iei de la capăt.</p>
+
+<p>Cheia succesului este concentrarea pe un ţel şi urmărirea acelui ţel
+până în pânzele albe. Am un respect mai mare vizavi de oamenii care-şi
+iau carnetul de conducere din 8 încercări, decât vizavi de cei care
+reuşesc din prima.</p>
+
+<p>Îmi este greu să exteriorizez ceea ce simt, chiar şi faţă de alţi
+programatori care ar înţelege. Zi de zi sunt încercat de toată gama de
+sentimente posibile, gen ură, stress, nervi, anxietate, frică,
+gelozie, tristeţe, mulţumire, motivare, curaj, uluire, mândrie şi
+fericire.</p>
+
+<p>Există zile în care nu văd lumina de la capăt şi mă întreb dacă are
+vreun sens orice din ceea ce fac. Există zile în care eşecurile par
+prea mari. De 3 săptămâni mă chinui la o singură problemă. Să-ţi
+vezi aplicaţia cum pică şi moare în producţie după zile întregi de
+teste, în care totul pare în regulă, este <em>rupere de suflet</em>.</p>
+
+<p>Există zile în care mă decomprim şi intru într-o stare de letargie
+totală în care nu-mi mai pasă de nimic, zile în care singura motivaţie
+care o mai am să mă scol din pat este puiul meu de aproape 3 ani.</p>
+
+<p>Astăzi însă nu este una din acele zile.</p>
+
+<p>Azi mă simt ca un zeu.</p>
+
+
+   <p><a rel="full-article" href="https://alexl.ro/blog/2013/04/08/viata-de-programator.html?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"><b>Citeşte tot articolul &raquo;</b></a></p>
+   ]]></content>
+ </entry>
+ <entry>
+   <id>https://alexl.ro/blog/2012/03/07/cura-de-slabire.html</id>
+   <title>Cura de slăbire, sau cum să turbezi</title>
+   <link href="https://alexl.ro/blog/2012/03/07/cura-de-slabire.html?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication"/>
+   <published>2012-03-07T00:00:00+02:00</published>
+   <updated>2012-03-07T00:00:00+02:00</updated>
+
+   <author>
+     <name>Alexandru Nedelcu</name>
+   </author>
+
+   <rights type="text">
+     Copyright 2018 Alexandru Nedelcu.
+     Some rights reserved (CC BY-NC 3.0)
+     License: http://creativecommons.org/licenses/by-nc/3.0/
+   </rights>
+
+   <category><![CDATA[dieta]]></category>
+
+   <content type="html"><![CDATA[
+   <p><img src="/assets/img/articles/kitty-scale.jpg" class="right" itemprop="image" width="371" height="286" alt="Kitty scale" style="float: right; margin-left: 10px; margin-bottom: 10px;" align="right"></p>
+
+<p>La o cură sănătoasă trebuie să slăbeşti în medie cam 1 Kg pe săptămână
+cu mici variaţii (maxim 1.5 Kg în săptămânile bune). Mai mult de atât
+şi cura nu este sănătoasă. Mai puţin de atât şi nu este o cură
+eficientă. Asta înseamnă că dacă vrei să slăbeşti de exemplu 20 Kg şi
+să o faci fără probleme ulterioare de sănătate, ar trebui să ajungi la
+greutatea ideală în aproximativ 4 luni şi jumătate. Turbezi efectiv.</p>
+
+
+
+   <p><a rel="full-article" href="https://alexl.ro/blog/2012/03/07/cura-de-slabire.html?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"><b>Citeşte tot articolul &raquo;</b></a></p>
+   ]]></content>
+ </entry>
+ <entry>
+   <id>https://alexl.ro/blog/2012/02/09/vreau-sa-slabesc.html</id>
+   <title>Vreau să slăbesc, dar cum?</title>
+   <link href="https://alexl.ro/blog/2012/02/09/vreau-sa-slabesc.html?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication"/>
+   <published>2012-02-09T00:00:00+02:00</published>
+   <updated>2012-02-09T00:00:00+02:00</updated>
+
+   <author>
+     <name>Alexandru Nedelcu</name>
+   </author>
+
+   <rights type="text">
+     Copyright 2018 Alexandru Nedelcu.
+     Some rights reserved (CC BY-NC 3.0)
+     License: http://creativecommons.org/licenses/by-nc/3.0/
+   </rights>
+
+   <category><![CDATA[dieta]]></category>
+
+   <content type="html"><![CDATA[
+   <p><img src="/assets/img/articles/big-mac2.jpg" class="right" itemprop="image" width="398" height="370" alt="Big mac2" style="float: right; margin-left: 10px; margin-bottom: 10px;" align="right"></p>
+
+<p>Greutatea mea, stabilă de câţiva ani, este pe undeva la 90-95 Kg,
+cu o înălţime de 172 cm. Însă greutatea mea ideală ar trebui să fie
+undeva pe la 70 Kg, ceea ce înseamnă că sufer de obezitate de grad</p>
+<ol>
+  <li>Şi m-am gândit să fac ceva în legătură cu asta.</li>
+</ol>
+
+
+
+   <p><a rel="full-article" href="https://alexl.ro/blog/2012/02/09/vreau-sa-slabesc.html?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"><b>Citeşte tot articolul &raquo;</b></a></p>
+   ]]></content>
+ </entry>
+ <entry>
+   <id>https://alexl.ro/blog/2011/10/26/a-fi-parinte-2.html</id>
+   <title>A Fi Părinte, Partea 2: Nașterea</title>
+   <link href="https://alexl.ro/blog/2011/10/26/a-fi-parinte-2.html?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication"/>
+   <published>2011-10-26T00:00:00+03:00</published>
+   <updated>2011-10-26T00:00:00+03:00</updated>
+
+   <author>
+     <name>Alexandru Nedelcu</name>
+   </author>
+
+   <rights type="text">
+     Copyright 2018 Alexandru Nedelcu.
+     Some rights reserved (CC BY-NC 3.0)
+     License: http://creativecommons.org/licenses/by-nc/3.0/
+   </rights>
+
+   <category><![CDATA[părinte]]></category>
+
+   <content type="html"><![CDATA[
+   <p>Uitându-mă înapoi, simt că perioada sarcinii a fost prea scurtă, ca
+și când am clipit de câteva ori și a apărut Cristian. De fapt a fost
+la propriu prea scurtă, dar unele zile au părut o eternitate.</p>
+
+<p>Merită să vă spun aici un pic despre caracterul meu, mai ales că
+este moștenit și de Cristian. Urăsc să mă trezesc dimineața, iar
+când dorm poți tăia și lemne pe mine. Greu mă trezesc. Și după ce mă
+trezesc, nu sunt treaz.</p>
+
+<h2 id="săptămâna-27" style="font-size: 150%; font-weight: bold;"><b>Săptămâna 27<b></b></b></h2>
+
+<p>Eu țin minte că era săptămâna 28, dar Amalia mă contrazice. Ea este mama, așa
+că-i dau dreptate.</p>
+
+<p>Dormeam un dulce somn după ce îl luasem pe Vali, unchiul Amaliei,
+de la aeroport cu o seară înainte. Stătusem toți 3 de vorbă până pe
+la 1 noaptea. Și dormeam, dormeam.  Ca printr-un vis aud:</p>
+
+<blockquote>
+  <p>Alex!</p>
+</blockquote>
+
+<p>Cât de nesuferit sunt dimineața, Amalia are o anumite voce cu care
+mă strigă în momentele în care se întâmplă ceva nașpa. Este un pic
+greu de descris, vocea este un pic tremurată, un pic pierită, însă
+cu o tonalitate bună. M-am trezit ca ars și am sărit din pat …</p>
+
+<blockquote>
+  <p>EU: <em>"Ce s-a întâmplat?""</em></p>
+
+  <p>Amalia: <em>"Cred că … mi s-a rupt apa"</em></p>
+</blockquote>
+
+<p>În timp ce-mi spunea asta avea lacrimi în ochi, însă eu nu pricepeam
+și mă gândeam, huh? Ce apă? Ce s-a rupt? Poftim?</p>
+
+<p>Buimac așa de somn cum eram, nu prea vedeam bine, așa că m-am dus
+mai aproape și m-am pus în patru labe. Mă uitam când la pata de pe
+covor, când la picioarele Amaliei. Încercam să mă conving că este
+ceea ce intuiam (mă mir că n-am fost pleznit).</p>
+
+<p>Nici Vali n-a avut o reacție prea normală. Și el buimac de somn,
+întâi a încremenit în ușa dormitorului. După care întreabă:</p>
+
+<blockquote>
+  <p>"<em>Sigur n-ai făcut pe tine?</em>"</p>
+</blockquote>
+
+<p>Nu, chiar i se rupsese apa.</p>
+
+<p>Relațiile noastre se cam răciseră cu dl doctor Sorin Puia, în
+principiu deoarece Amalia nu se simțea bine de câte ori se ducea la
+vizită. Doctorul Puia este un doctor recunoscut și foarte bun, însă
+și viitoarea mămică trebuie să se simtă în siguranță, să aibă
+încredere, ori Amalia este genul de persoană ce se bazează și pe
+instinct. Așa că în ultimul timp fusesem la consult la spitalul CF2.</p>
+
+<p>Am plecat spre CF2.</p>
+
+<p>Ajunși acolo ni s-a confirmat că s-a rupt apa. <em>Apa</em> este de
+fapt lichidul amniotic în care se dezvoltă copilul în timpul
+sarcinii. Când se rupe apa se fisurează sacul amniotic din uter și
+se întâmplă de obicei atunci când fătul a atins o anumită maturitate
+și este gata să se nască. Dacă se întâmplă mai devreme este nasol,
+pentru că fătul trăiește până la naștere într-un mediu steril, iar
+acel lichid este ca și oxigenul pentru noi. Când se rupe apa de
+obicei mama intră imediat în travaliu, urmând să nască. Scopul
+ecografiei era să se observe cantitatea de lichid rămasă, iar
+pronosticul … nașpa.  Însă am fost refuzați pentru internare, deoarece
+spitalul nu este echipat pentru nașteri premature. Ai nevoie de
+incubatoare speciale, de medicamente și de personal calificat. Ni
+s-a spus să ne ducem ori la Giulești, ori la Municipal, ori la
+Polizu.</p>
+
+<p>Am plecat spre spitalul Giulești.</p>
+
+<p>Ajunși acolo ne-am dus la camera de gardă. Am așteptat ca proștii pe
+la ușă (cu apa târâși) să ne ia în primire careva. Cum a intrat
+Amalia în cameră, așa a și ieșit. Spitalul era super ocupat și nu
+mai aveau incubatoare. Am intrat în panică, însă ni s-a spus să mai
+așteptam un pic și am așteptat (cu apa târâși). A intrat iar Amalia
+în cameră. Eu în schimb i-am dat telefon lui taică-miu, și am urlat
+la el:</p>
+
+<blockquote>
+  <p>"<em>FĂ‚ CEVA!</em>"</p>
+</blockquote>
+
+<p>Da, ironia sorții, mare și tare cum sunt încă dau fuga la părinți să
+mă ajute în vremuri de restriște. N-a reușit să facă nimic pe
+moment, nu prea avea ce face decât să dea telefoane, iar doctorul
+Puia era plecat din țară la nuș' ce congres. Iar în timpul ăsta o
+dobitoacă de la Giulești s-a dus val-vârtej la camera de gardă
+începând să țipe la Amalia:</p>
+
+<blockquote>
+  <p>"<em>Cei de la CF2 au refuzat să ne dea sânge săptămâna trecută și
+acum trimit pacienți la noi? Duceți-vă în altă parte, duceți-vă la
+Municipal … nu mai avem loc, ce vreți să fac?</em>"</p>
+</blockquote>
+
+<p>Ne pusese dracu să spunem că am fost întâi la CF2, de parcă era Amalia de
+vină că refuzase CF2 să le dea sânge. Îmi pare rău că n-am bătut-o, însă
+am aflat abia după ce plecasem.</p>
+
+<p>Am ajuns la spitalul Municipal (Universitar) pe la ora 1, plecați
+de acasă de pe la 8 și am menționat că eram cu apa târâși? Da,
+foarte tragic. Încă o ecografie, pronosticul nașpa, lichidul
+amniotic rămăsese în jur de 30% (parcă). Am reușit în sfârșit să ne
+internăm UNDEVA. N-am mai povestit că între timp sunasem și la
+clinici private, d'alea super scumpe, gen Regina Maria din
+Piața Muncii, însă NU erau echipate pentru așa ceva și stau și mă
+întreb pentru ce puii mei plătești zeci de milioane.</p>
+
+<p>Amalia a fost dusă într-o cameră la etajul 5, iar eu sunt pe undeva
+pe la parter încă. Venise și maică-mea între timp deoarece aveam
+toți banii în contul din bancă, fără nici un leu de șpagă la mine.</p>
+
+<p>Am urcat la etaj, însă secția era de terapie intensivă și nu puteam
+să intru s-o văd. Intru însă pe ușă și văd o infirmieră. Nu mi-am
+dat seama de rangul dânsei (infirmieră, asistentă, moașă, doctoriță,
+toate arătau la fel), însă disperat și generos scot 50 de lei din
+buzunar și o rog să-mi dea un halat. Îmi dă halatul, și subtil cum
+sunt încerc să-i bag banii în buzunar. Dar ce buzunar?</p>
+
+<p>Dna infirmieră, o cucoană pe la 40 de ani, solidă și un pic mai
+înaltă ca mine, avea doar un buzunar în dreptul sânului stâng și se
+îndepărta deja de mine. Așa că m-am grăbit și mergând pe vârfuri pe
+lângă dânsa încercam să-i îndes bancnota în buzunar. Am reușit din
+câteva încercări, însă este suficient să spun că doamna respectivă
+n-a mai acceptat niciodată bani de la mine.</p>
+
+<p>În timpul ăsta relațiile noastre erau puse în funcțiune. Vedeți voi,
+sistemul de sănătate este corupt până în măduva oaselor și începe de
+fapt de la noi. Ca să primim cea mai bună îngrijire posibilă, chiar
+înainte de a fi refuzați și de Municipal ne-am pus pe
+telefoane. Iar doctorul ce ne-a preluat, a primit încă din ziua
+respectivă 2 telefoane … de la o cunoștință a Amaliei și de la
+primarul general al Bucureștiului (poveste lungă).</p>
+
+<h2 id="în-românia" style="font-size: 150%; font-weight: bold;"><b>În România<b></b></b></h2>
+
+<p>Pentru că vorbesc deja de șpăgi, de nemulțumiri și de mici erori, o
+să folosesc pentru persoanele implicate aliasuri, pentru că am fost
+per total mulțumiți și nu vreau să le fac lor rău. Doctorul ce a
+preluat-o pe Amalia este X, un medic bătrân, recunoscut și cu foarte
+multă experiență, dar care n-a avut prea multe tangențe cu
+Amalia. Rezidentului său o să-i spunem Y, un medic tânăr, foarte
+amabil și care a avut grijă de Amalia în toată perioada.</p>
+
+<p>Oricum toată secția era în alertă, mai ales că Luni, adică peste
+aproximativ 48 de ore a mai sunat și managerul spitalului din Paris
+pentru a pune pilă, contactat la rândul său fiind de ministrul sănătății</p>
+<ul>
+  <li>oricum tot degeaba. Medicii sunt și ei oameni și în unele situații
+nu prea ai ce face decât să te rogi la forțe superioare.</li>
+</ul>
+
+<blockquote>
+  <p>"<em>Ce vrei să-mi pui tot ministerul în cap? Ajunge, n-am ce-ți face mai mult de atât!</em>"
+<br>(așa s-a plâns doctorul X într-una din vizite)</p>
+</blockquote>
+
+<p>Adevărul este că zbârnâiau pe lângă Amalia, dar nu numai și deși
+spitalul Universitar are probleme de fonduri, lipsindu-le și ace de
+siringă, personalul este de nota 10 (cel puțin comparativ cu alte
+spitale). Și se ocupă și de cazuri grele, cum ar fi o altă fată
+însărcinată și cazată în același salon cu Amalia, fată ce suferea de
+cancer în gât și doar la spitalul Municipal au primit-o, fiind șanse
+mari să nu supraviețuiască nașterii, dar și-a dorit și ea
+copil. Fetiță inconștientă.</p>
+
+<p>Aici ar trebui să menționez un pic și problema șpăgii. Noi n-am
+avut-o, adică nu ni s-a cerut niciodată pe față nimic, ba chiar am
+fost refuzați în general, deși ca părinte este nasol când ești
+refuzat deoarece te gândești că (1) problema nu mai este în mâinile
+tale și nu mai poți face nimic + (2) cazul este suficient de grav
+încât doctorii refuză șpaga din principiu. Așa că tot am dat, pe
+ici, pe colo.</p>
+
+<p>Dar există medici în România care nu numai că vor șpagă, dar mai
+sunt și nemulțumiți cu prea puțin. Îmi place să cred că aș fi
+capabil să-l târnui pe un astfel de medic, dar te joci cu sănătatea
+familiei? Nici măcar nu este vorba despre mine aici.</p>
+
+<h2 id="așteptarea" style="font-size: 150%; font-weight: bold;"><b>Așteptarea<b></b></b></h2>
+
+<p>Așa cum am spus, o problemă când se rupe apa ar fi că femeia intră
+aproape imediat în travaliu. Multe mămici de la Municipal cu
+prematuri (și erau ceva prematuri), născuseră în aceeași zi sau în
+ziua imediat următoare. Când intri în travaliu încep
+contracțiile. Întâi rare, apoi din ce în ce mai regulate. Atunci
+când se succed în intervale mai mici de 15 minute (parcă), nașterea
+este aproape.</p>
+
+<p>În prima zi când s-a internat Amalia, i s-a spus de către doctorul
+Y: "<em>cred că reziști până mâine, dar au fost femei care au rezistat și
+3 zile</em>".  A doua zi doctor Y i-a spus: "<em>au fost femei care au
+rezistat și o săptămână, dar în cazul tău nu cred, vedem</em>". După o
+săptămână întreagă doctor Y i-a spus: "<em>ah, păi au fost femei care
+au rezistat și zece zile</em>".</p>
+
+<p>Au trecut 3 săptămâni per total, timp în care Amalia probabil a intrat
+în istoria spitalului.</p>
+
+<p>Ceea ce este bine, deoarece în acel timp a luat copilul în greutate
+încă vreo 600 de grame și i s-au dezvoltat și plămânii datorită
+tratamentului primit. Vedeți voi, problema este că uterul nemaifiind
+steril, se poate infecta ușor, iar viitoarea mamă poate face
+septicemie, caz în care moare și ea și copilul. Dar dacă se naște
+copilul prea devreme, cea mai mare problemă sunt plămânii care nu
+sunt suficient de dezvoltați și inundați cu apă, iar la 28 de
+săptămâni ești la limita imposibilului. Am mers însă cu antibiotice
+puternice și cu D-zeu înainte.</p>
+
+<p>Îmi scădeau speranțele în fiecare zi, deoarece citeam de pe Internet
+toate prostiile despre riscurile asociate nașterilor
+premature. Amaliei, pentru că o protejam ținând-o pe întuneric, îi
+creșteau speranțele, deși fiind genul de ființă claustrofobică nu
+putea suporta spitalul și trebuia să ne plimbăm un pic de câte ori
+ne vedeam. Și chiar îmi era milă de ea - avea contracții regulate și
+își mângâia burtica spunând:</p>
+
+<blockquote>
+  <p>"<em>Mami, stai acolo cuminte</em>"</p>
+</blockquote>
+
+<p>Eu număram zilele și speram să mai reziste o zi, ca la alcoolici
+anonimi. De fapt Amalia începuse să gândească un pic invers, pt că
+fătul cu puțin lichid amniotic este chinuit. Este ca și când n-are
+oxigen și simți cum se lipesc pereții uterului de el.</p>
+
+<p>Intrasem într-o rutină. În fiecare zi mă sculam, plecam la spital,
+mă duceam pe acoperiș la cantină să-i cumpăr Amaliei ceva de
+mâncare, mă întorceam înapoi acasă, lucram, plecam iar pe la ora 4,
+mâncam amândoi (ca să-i fac poftă de mâncare), îi băgam predica de
+consolare și creștere a speranței și mă întorceam acasă … era luna
+Mai-Iunie, un timp extrem de frumos și mirosea a vară.</p>
+
+<p>Și am aflat și de ce se rupsese apa: de la infecție urinară cu
+Ecoli ce nu apăruse la zecile de analize făcute.</p>
+
+<h2 id="nașterea-propriu-zisă" style="font-size: 150%; font-weight: bold;"><b>Nașterea propriu-zisă<b></b></b></h2>
+
+<p>Speram să se nască în zodia Rac ce era foarte aproape, dar s-a
+născut cam când a vrut el, în Gemeni. Pe la 30 de săptămâni (eu țin
+minte că se împlineau 31, Amalia mă contrazice :)) mă sună pe la ora
+1 noaptea.</p>
+
+<blockquote>
+  <p>"<em>Iubitule, haide vino că a venit timpul</em>" (avea o voce calmă)</p>
+
+  <p>"<em>Ai grijă cum conduci</em>"</p>
+</blockquote>
+
+<p>La spital am găsit-o pe hol, cu contracții groaznice și i-am spus să
+se reîntoarcă în pat. Amalia însă foarte fioroasă, arătându-și
+colții …</p>
+
+<blockquote>
+  <p>"<em>În pat să stai tu măh, că din cauza ta sunt aici, TE OMOR! TACI!</em>"</p>
+</blockquote>
+
+<p>Noi bărbații nu prea vom știi vreodată ce dureri sunt în astfel de
+momente. Dar o admir pentru că n-am auzit-o țipând niciodată și la
+orice maternitate vezi fel și fel de specii, ca la zoo.</p>
+
+<p>Doctorul X nu era în spital și nu se scoală noaptea din somn nici
+sunat de asistente, doctorul Y ne-a răspuns, însă fiind rezident avea
+mâinile legate, iar nașterea a fost cu doctorița Z. Am intrat în
+panică, pt că nu știam pe ce mâini nimerim și iarăși EU NU AVEAM
+BANI LA MINE, toți fiind pe cont. Înainte de a intra la operație am
+alergat spre doctorița Z și i-am spus:</p>
+
+<blockquote>
+  <p>"<em>Dna. doctor, aveți grijă de soția mea că nu veți regreta!</em>"</p>
+</blockquote>
+
+<p>Deși a plecat ulterior în vacanță și nu i-am mai reîntors nici un
+favor, adevărul este că a avut grijă alegând să-i facă cezariană. La
+copiii prematuri o naștere normală este foarte periculoasă, motiv pt
+care un alt copil, o fetiță născută cam în același timp cu Cristian
+și un pic mai mare, a avut probleme mari (retinopatie, adică
+probleme de vedere și cheag de sânge pe creier). Prematurii au
+vasele de sânge foarte sensibile și pot face foarte ușor hemoragii -
+iar felul în care sunt scoși copiii este groaznic, doctorul sau
+moașa apucând capul copilului și trăgând stânga-dreapta cu putere,
+moment în care gâtul seamănă cu o bucată de plastilină. Ce arată
+prin filme este o imagine romantică a nașterii, nu realitatea.</p>
+
+<p>După operație prima oară am văzut-o pe Amalia, tremurând și
+lăcrimând din cauza anestezicului primit:</p>
+
+<blockquote>
+  <p>Eu: "<em>L-ai văzut? Cum este, este urât?</em>"</p>
+
+  <p>Amalia: "<em>Nu, e frumos</em>" (dând din cap cu o voce pierită)</p>
+
+  <p>Eu: "<em>Am vorbit cu asistenta, are 1,45 Kg</em>"</p>
+
+  <p>Amalia: "<em>Sigur, sigur? credeam că are doar 1 Kg</em>" (și a răsuflat un pic ușurată)</p>
+</blockquote>
+
+<p>Apoi m-am dus la terapie intensivă să-mi văd puiul. L-am văzut
+într-un incubator, conectat la un tub de oxigen, foarte micuț, putea
+fi ținut într-o singură palmă, însă bărbia era adâncă precum a mea
+și chiar mi se părea frumos. Cu siguranță nu încurcase nimeni
+copilul.</p>
+
+<blockquote>
+  <p>Eu: "<em>Ce face băiețelul lui tati?</em></p>
+
+  <p>El:</p>
+
+  <p>Eu: "<em>Te iubește tati</em>"</p>
+
+  <p>El:</p>
+</blockquote>
+
+<p>Copilul meu dormea.</p>
+
+
+   <p><a rel="full-article" href="https://alexl.ro/blog/2011/10/26/a-fi-parinte-2.html?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"><b>Citeşte tot articolul &raquo;</b></a></p>
+   ]]></content>
+ </entry>
+ <entry>
+   <id>https://alexl.ro/blog/2011/10/25/a-fi-parinte-1.html</id>
+   <title>A Fi Părinte, Partea 1: Sarcina</title>
+   <link href="https://alexl.ro/blog/2011/10/25/a-fi-parinte-1.html?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication"/>
+   <published>2011-10-25T00:00:00+03:00</published>
+   <updated>2011-10-25T00:00:00+03:00</updated>
+
+   <author>
+     <name>Alexandru Nedelcu</name>
+   </author>
+
+   <rights type="text">
+     Copyright 2018 Alexandru Nedelcu.
+     Some rights reserved (CC BY-NC 3.0)
+     License: http://creativecommons.org/licenses/by-nc/3.0/
+   </rights>
+
+   <category><![CDATA[părinte]]></category>
+
+   <content type="html"><![CDATA[
+   <p>Pe 18 Iunie anul trecut s-a născut Ştefan Cristian. Sincer să fiu nici nu
+ştiu cum a trecut timpul şi unele clipe încerc din greu să mi le amintesc.</p>
+
+<p>Eu şi soţia mea Amalia chiar l-am vrut şi ne-am pus pe treabă. De fapt
+am avut un uşor dezacord vizavi de perioada în care ar fi trebuit să vină.
+Părerea mea era că ar trebui peste 6 luni. Părerea Amaliei: imediat.</p>
+
+<p>După ce am aflat că a rămas însărcinată am fost foarte satisfăcut
+de performanţele mele.</p>
+
+<blockquote>
+  <p>Eu: "<em>uau, este un accident fericit, venit la timpul potrivit</em>"</p>
+
+  <p>Amalia: "<em>accident să crezi tu că a fost ;-)</em>"</p>
+</blockquote>
+
+<p>M-am simţit folosit preţ de un minut, însă sarcina Amaliei a fost o perioadă
+relativ fericită. Se întâmplă un fenomen ciudat cu femeile însărcinate,
+fiind cumva învăluite de o aură uşor de recunoscut. Mi-o amintesc pe
+Amalia cum mergea prin casă, mângâindu-şi burtica şi manifestându-şi mulţumirea
+cu un zâmbet uşor perceptibil. De nepreţuit. După care a venit perioada în
+care copilul a început să mişte în burtica mamei. Îmi plăcea să-l mângâi,
+îmi plăcea să cred că îmi recunoaşte vocea (sau sforăitul, prietenii
+chiar ştiu de ce).</p>
+
+<p>Aceste momente alegem noi să ni le amintim.</p>
+
+<p>Au fost probleme din primele 2 luni. Iniţial a avut sângerări şi mi-o amintesc
+pe iubita mea cum stătea pe canapea, supărată că a pierdut sarcina. Nu
+s-a întâmplat chiar aşa, de fapt s-a întâmplat ca sarcina să fie gemelară,
+iar unul dintre sacii amniotici nu trăia (nu avea ecou), astfel o desprindere
+ a sacului defect era inevitabilă. Doctorul ne-a zis că este posibil pur şi
+simplu să se dizolve, fără desprindere, însă în caz de desprindere era
+posibil să pierdem sarcina. Emoţii, suspans, avem/n-avem copil…</p>
+
+<p>N.B. îmi place să vorbesc la persoana întâi-plural, chiar dacă sarcina n-am
+dus-o eu, deşi pot să jur că am avut dureri de simpatie.</p>
+
+<p>Evident, n-am pierdut sarcina, însă prin luna 4 (vag îmi amintesc exact luna)
+a existat pericol mare de desprindere totală a placentei de pereţii
+uterului … fuck. Am trecut şi peste asta - se întâmplă ca odată ce fătul
+creşte, zona desprinsă să devină din ce în ce mai mică faţă de suprafaţa totală.</p>
+
+<p>Deasemenea, dublu-testul din primul timestru pentru detectarea de anomalii
+(cum ar fi sindromul Down) nu l-am făcut din necunoştinţă de cauză,
+iar triplu-testul făcut în semestrul 2 a ieşit un pic aiurea - triplu-testul
+este de fapt un instrument inventat de sado-masochişti cu marjă de eroare
+uriaşă, menit să-ţi creeze panică şi nervi începând cu săptămâna 13.</p>
+
+<p>Îmi amintesc ziua când ne-am dus plini de emoţii şi de speranţă la
+spitalul Giuleşti să ne vadă doctorul nostru de atunci, Dr. Puia Sorin.
+Înainte de asta însă făcusem încă o ecografie la acelaşi spital, am uitat
+numele doctorului, dar ne-a comunicat că i-ar apare un cheag de sânge fătului
+la cap. Nu ştiu cum ar fi fost posibil, deoarece era prea mic pentru aşa ceva,
+însă am purces spre dl doctor Puia ca să ne mai liniştească încă odată
+şi ne-am întâlnit cu dânsul pe drum:</p>
+
+<blockquote>
+  <p>Puia: "<em>Amalia, trebuie să te internezi azi, vorbeşte cu fetele</em>"</p>
+
+  <p>Amalia: "<em>N-aş vrea să mă internez</em>"</p>
+
+  <p>Puia: "<em>N-am cum să-ţi fac avort altfel, în câteva ore scapi</em>"</p>
+
+  <p>Amalia: "<em>Poftim?</em>"</p>
+</blockquote>
+
+<p>Amaliei i s-au înmuiat instantaneu picioarele. În următoarele 3
+ore am încercat să ne obişnuim cu gândul şi Amalia îşi revenise un pic.
+Apare însă dl. Puia şi ne zice:</p>
+
+<blockquote>
+  <p>"<em>Este în spital Dr. Albu, extrem de bun pe ecografii, te trimit la
+dânsul să decidă dumnealui</em>"
+<br>(implicit aici, dl Puia nu avea încredere în ecografia anterioară)</p>
+</blockquote>
+
+<p>După încă vreo 5 ore de facem/nu-facem avort, ecografia a ieşit bine
+(i.e. "<em>n-are doamnă nimic, e foarte bine</em>") şi am trecut peste.
+Off, şi bunicii noştrii care năşteau pe câmp fără nici un test şi nici
+o ecografie anterioară.</p>
+
+<p>În săptămâna 27 ne-am dus să mai facem încă o ecografie la Medsana,
+aşa pentru orice eventualitate, să vedem dacă este dezvoltat normal şi
+toate cele. O parafrazez aici pe doctoriţa ce ne-a primit:</p>
+
+<blockquote>
+  <p>"<em>Vreţi să-i vedeţi puţa? Fac ce fac şi numai peste ea dau,
+la alţi copii mă chinui s-o găsesc.</em>"
+…
+"<em>Corpul are vârsta gestaţională de 27 de săptămâni, însă capul
+este un pic mai dezvoltat, are dimensiunile cam de 28 de săptămâni</em>"</p>
+</blockquote>
+
+<p>Am râs pe înfundate: taică-su are o devlă cât casa.</p>
+
+<p>(<em>va urma</em>)</p>
+
+
+   <p><a rel="full-article" href="https://alexl.ro/blog/2011/10/25/a-fi-parinte-1.html?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"><b>Citeşte tot articolul &raquo;</b></a></p>
+   ]]></content>
+ </entry>
+</feed>
+
