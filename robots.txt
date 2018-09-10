@@ -1,5 +1,5 @@
 # robotstxt.org/
 
-Sitemap: https://alexl.ro/sitemap.xml
+Sitemap: https://ro.alexn.org/sitemap.xml
 User-agent: *
 
