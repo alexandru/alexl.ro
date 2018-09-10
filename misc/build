@@ -38,4 +38,4 @@ exec("chmod -R go-rwx #{ENV['HOME']}/.ssh")
 exec(
   "rsync --delete-excluded -Pacv " +
   "-e \"ssh -p 223 -o 'StrictHostKeyChecking no' -i #{ENV['HOME']}/.ssh/travis_rsa\" " +
-  "build/ alex@alexn.org:/var/www/alexl.ro/")
+  "build/ alex@alexn.org:/var/www/ro.alexn.org/")
