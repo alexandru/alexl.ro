@@ -46,18 +46,46 @@
 
   <div id="footer-container">
     <footer>
-      <div class="contact">
-	&copy; <%= DateTime.now.strftime("%Y") %> Alexandru Nedelcu
-	<br />
-	Unele Drepturi Rezervate (<a href="http://creativecommons.org/licenses/by-nc/3.0/" rel="license">CC BY-NC 3.0</a>)
+      <div class="rss">
+        <a href="https://twitter.com/alexelcu" target="_blank" title="Follow me on Twitter (@alexelcu)">
+          <%= image_tag "twitter.png", :alt => "Follow me on Twitter (@alexelcu)" %>
+        </a>
       </div>
 
-      <div class="rss">
-	<a href="https://twitter.com/alex_ndc" target="_blank" title="Follow me on Twitter (@alex_ndc)">
-	  <%= image_tag "twitter.png", :alt => "Follow me on Twitter (@alex_ndc)" %>
-	</a>
+      <div class="links">
+        <a href="/pages/privacy-policy.html">Politica de Confidențialitate</a> |
+        <a href="https://twitter.com/alexelcu" target="_blank">Twitter</a> |
+        <a href="https://github.com/alexandru" target="_blank">GitHub</a>
+      </div>
+
+      <div class="contact">
+        &copy; <%= DateTime.now.strftime("%Y") %> Alexandru Nedelcu
+        <br />
+        Unele Drepturi Rezervate (<a href="http://creativecommons.org/licenses/by-nc/3.0/" rel="license">CC BY-NC 3.0</a>)
       </div>
     </footer>
   </div>
+
+  <!-- Analytics -->
+  <script>
+    function loadAnalytics() {
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', ' UA-84530423-3', 'auto');
+      ga('set', 'anonymizeIp', true);
+      ga('send', 'pageview');
+    }
+    // Checks DO-NOT-TRACK status
+    if (window.doNotTrack || navigator.doNotTrack || navigator.msDoNotTrack || 'msTrackingProtectionEnabled' in window.external) {
+      var dnd = window.doNotTrack == "1" || navigator.doNotTrack == "yes" || navigator.doNotTrack == "1" || navigator.msDoNotTrack == "1" || window.external.msTrackingProtectionEnabled();
+      if (!dnd) loadAnalytics();
+    } else {
+      loadAnalytics();
+    }
+  </script>
+  <!-- End Analytics -->  
 </body>
 </html>
